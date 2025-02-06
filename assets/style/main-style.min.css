@@ -191,4 +191,35 @@
 .people-right-button-bn:active {
   transform: scale(0.95);
   box-shadow: 0 5px #666;
+}
+
+.from {
+  justify-content: center;
+  padding: 10px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  background-color: #f5f5f5;
+}
+.from__info-bn {
+  position: absolute;
+}
+.from__info-h2 {
+  font-size: 60px;
+  font-weight: 500;
+}
+.from__content {
+  display: flex;
+  justify-content: space-between;
+}
+.from__content-container-img {
+  object-fit: contain;
+  width: 100%;
+}
+.from__content-containerS {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }/*# sourceMappingURL=main-style.min.css.map */
