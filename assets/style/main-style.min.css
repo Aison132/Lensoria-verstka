@@ -40,8 +40,8 @@
 }
 .application {
   width: 100%;
-  background-color: var(--color-black);
-  color: var(--color-white);
+  background-color: var(--color-white);
+  color: var(--color-black);
   font-family: var(--font-family);
   font-weight: 400;
 }
@@ -55,8 +55,41 @@
   margin: 0 auto;
   width: 100%;
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .container {
     background-color: red;
   }
+}
+
+.header {
+  padding: 20px;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__container-left-img {
+  width: 100px;
+  cursor: pointer;
+}
+.header__container-center-link {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+}
+.header__container-center-item {
+  font-weight: 500;
+}
+.header__container-right {
+  margin: 0;
+  padding: 0;
+}
+.header__container-right-ico {
+  width: 10px;
+  object-fit: cover;
+}
+.header__container-right-bn {
+  padding-left: 20px;
+  padding-right: 20px;
 }/*# sourceMappingURL=main-style.min.css.map */
