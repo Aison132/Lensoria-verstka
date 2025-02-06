@@ -1,6 +1,6 @@
 :root {
-  --color-white: #fff;
-  --color-black: #000;
+  --color-white: #000;
+  --color-black: #fff;
   --content-width: 1200px;
   --container-padding: 15px;
   --container-width: calc(var(--content-width) + (var(--container-padding) * 2));
@@ -40,8 +40,8 @@
 }
 .application {
   width: 100%;
-  background-color: var(--color-white);
-  color: var(--color-black);
+  background-color: var(--color-black);
+  color: var(--color-white);
   font-family: var(--font-family);
   font-weight: 400;
 }
@@ -222,4 +222,58 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.frame {
+  justify-content: center;
+  padding: 10px;
+  padding-top: 30px;
+}
+.frame__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.frame__info-h2 {
+  font-size: 50px;
+  font-weight: 500;
+}
+.frame__content {
+  display: flex;
+  justify-content: space-between;
+}
+.frame__container {
+  width: 588px;
+  height: 732px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("../../img/frame.png");
+}
+.frame__container-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #dfdfdf;
+  border-radius: 20px;
+  padding: 20px;
+}
+.frame__container-info-text-h2 {
+  margin: 0;
+}
+.frame__container-info-text-p {
+  margin-bottom: 5px;
+}
+.frame__container-button {
+  display: flex;
+  justify-content: right;
+}
+.frame__container-button-bn {
+  border-radius: 100px;
+  padding: 10px;
+  border: 1px solid rgb(255, 255, 255);
+  cursor: pointer;
+  background-color: #d8d8d8;
+  color: white;
 }/*# sourceMappingURL=main-style.min.css.map */

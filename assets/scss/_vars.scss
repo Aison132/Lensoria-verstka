@@ -3,8 +3,8 @@ $black: #000;
 $white: #fff;
 // создаем переменные для css
 :root{
-    --color-white: #{$white};
-    --color-black: #{$black};
+    --color-white: #{$black};
+    --color-black: #{$white};
     --content-width: 1200px;
     --container-padding: 15px;
     --container-width: calc(var(--content-width) + (var(--container-padding) * 2));
