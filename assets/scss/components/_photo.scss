@@ -1,0 +1,36 @@
+.photo{
+    background-color: #f5f5f5;
+    padding: 20px;
+    padding-top: 50px;
+    &__content{
+        &-photo{
+            display: flex;
+            padding: 50px;
+            gap: 20px;
+            justify-content: right;
+        }
+    }
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+        margin-bottom: 20px;
+        &-center{
+            width: 700px;
+        }
+    }
+    &-input{
+        background-color: white;
+        padding: 5px;
+        display: flex;
+        border-radius: 100px;
+        align-items: center;
+        border: 2px solid #ebebeb;
+        &-it{
+            border: none;
+            align-items: center;
+        }
+    }
+}
